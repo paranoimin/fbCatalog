@@ -122,4 +122,4 @@ def scrapData(second):
     threading.Timer(second, scrapData, [second]).start()
 
 
-scrapData(300)
+scrapData(3600)
